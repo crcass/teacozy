@@ -42,8 +42,41 @@ header nav a {
   max-width: 100%;
 }
 
-.hero {
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%
+}
+
+.mission {
   padding-top: 62px;
   height: 700px;
+  display: flex;
+  justify-content: center;
+}
+
+.mission-image {
   width: 1200px;
+  background-image: url("../../resources/images/img-mission-background.jpg");
+  display: flex;
+  align-items: center;
+}
+
+.mission-text {
+  background-color: black;
+  width: 1200px;
+}
+
+h2, h4 {
+  margin: 10px;
+}
+
+.featured {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.featured-text {
 }
